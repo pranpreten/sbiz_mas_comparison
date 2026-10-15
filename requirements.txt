@@ -1,0 +1,9 @@
+# 현재 single_agent_test 환경에서 실제 확인한 버전. 공통 코드 검증에도 사용.
+langgraph==1.2.14
+langsmith==0.14.7
+langchain-core==1.6.9
+langchain-upstage==0.7.7
+python-dotenv==1.2.4
+psycopg[binary]==3.3.6
+pydantic==2.14.1
+# 엑셀 읽기는 표준 라이브러리로 구현. 테스트는 unittest 사용.
